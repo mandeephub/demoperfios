@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800;700;600&display=swap');
+
+.custom_header{
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.custom_hero{
+    height: 90vh;
+    background-image: url(./assets/img4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary-custom{
+    border-radius: 50px;
+    background-color: #fff;
+    color: #184795;
+    padding: 10px 25px;
+    /* position: absolute;
+    bottom: 130px;
+    left: 80px; */
+}
+
+
+.btn-primary-custom:hover{
+    border-radius: 50px;
+    background-color: #fff;
+    color: #184795;
+    padding: 10px 25px;
+    /* position: absolute;
+    bottom: 130px;
+    left: 80px; */
+}
+
+
+.btn-primary-custom i{
+    margin-left: 10px;
+}
+
+
+.primary_heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #137AC5;
+}
+
+.container_wrapper{
+    padding: 50px 0px;
+}
+
+p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.secondary_heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 45px;
+}
+
+.quotes{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 51px;
+    text-align: left !important;
+    position: relative;
+    
+}
+
+.quotes:before{
+    content:url('./assets/qbg.png'); 
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+    left: -10px;
+}
+
+.employee-meta{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+}
+
+.filter_section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.select_box{
+    width: 25%;
+}
+
+.job_listing{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apply-arrow{
+    margin-left: 25px;
+}
+
+.jobs .list-group-item{
+    border: none;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+    padding: 15px 0px;
+    background: transparent;
+}
+
+.secondary_btn_custom{
+    background: linear-gradient(180deg, #4EB4FA 0%, #20CD9C 100%);
+    border-radius: 50px;
+    transform: rotate(90deg);
+    padding: 20px 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.job_listing h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.job_listing p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.apply a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+}
+
+.career{
+    background: #FBFBFB;
+    position: relative;
+}
+
+.career:before{
+    content:url('./assets/img11.png'); 
+    position: absolute;
+}
+
+.career:after{
+    content:url('./assets/img12.png'); 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.game{
+    background-image: url(./assets/img13.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+
+}
+
+.game h3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 73px;
+color: #fff;
+}
+
+.game p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+line-height: 43px;
+}
+
+.custom_gdoor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recognization h3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+color: #137AC5;
+line-height: 40px;
+}
+
+.footer{
+    background: #184795;
+    padding: 20px 0px;
+}
+
+.divider{
+    border-bottom: 1px solid #fff;
+}
+
+.footer_logo{
+    background: #184795;
+    padding: 0px 10px;
+    position: relative;
+    top:20px;
+}
+
+
+.footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+.footer ul li{
+    display: inline;
+}
+
+.links li a{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+text-decoration: none;
+color: #fff;
+}
+
+
+.links li{
+    border-right: 1px solid #fff;
+    padding: 0px 15px;
+}
+
+.links li:last-child{
+    border: none;
+}
+
+.icons li{
+    padding: 0px 8px;
+}
+
+
+.job_listing .jobs_heading{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+color: #1A4288;
+}
+
+.apply_btn_jobs{
+    background-color: #1394D4;
+    padding: 10px 20px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #fff;
+text-decoration: none;
+}
+
+.jobs_page .jobs .list-group-item{
+    border: none;
+}
+
+.jobs_page h3{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 52px;
+color: #1A4288;
+}
+
+.roles{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+}
+
+.jobs_page li{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+color: #333333;
+
+}
+
+.jobs_desc_bb{
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.applyjobh{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+color: #137AC5;
+}
+
+.file{
+    position: relative;
+  overflow: hidden;
+}
+
+.filetype{
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.btn-primary-file{
+    background: #F2F2F2;
+    padding: 10px 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 0px;
+}
+
+.btn-primary-file:hover{
+    background: #F2F2F2;
+}
+
+button.apply_btn_jobs{
+    border: none;
+}
+
+.box_clr{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #4EB4FA 0.08%, #20CD9C 100%);
+    color: #fff;
+    padding: 80px 0px;
+}
+
+.box_clr h3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 72px;
+}
+
+.box_clr p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 44px;
+}
+
+.btn_custom_white{
+    background: #fff;
+    color: #1394D4;
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+padding: 15px;
+}
+
+
+.hero_heading{
+    font-family: "roboto";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 48px;
+  background: -webkit-linear-gradient(#4EB4FA, #20CD9C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero_para{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 58px;
+    color: #fff;
+}
+
+.filter_section{
+    position: relative;
+    z-index: 11;
+}
+
+/* slider code  */
+.swiper {
+    width: 100%;
+    height: 60vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color: #184794;
+}
+
+.swiper-pagination-bullet{
+    border: 1px solid #184794;
+    background: #fff;
+    opacity: 1;
+}
+/* slider code  */
+
+
+
+/* media queries */
+
+
+@media only screen and (max-width: 1024px) {
+
+    .custom_hero{
+        height: 60vh;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .swiper {
+        width: 100%;
+        height: 70vh !important;
+    } 
+    
+    .swiper img{
+        margin-top: 20px;
+    }
+
+    .swiper-pagination{
+        bottom: 0px !important;
+    }
+    
+
+    .career:before{
+        opacity: 0.3;
+    }
+
+
+    .career:after{
+        opacity: 0.3;
+    }
+
+    .policy_custom{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .jobs_page .job_listing{
+        flex-direction: column;
+    }
+
+    .footer_bar{
+        margin-top: 50px !important;
+        text-align: center;
+    }
+
+    .footer_bar .text-end{
+        text-align: center !important;
+    }
+
+    .primary_heading{
+        font-size: 38px;
+    }
+
+    .career .job_listing{
+        flex-direction: column;
+    }
+
+    .hero_para{
+        font-size: 45px;
+    }
+
+    .hero_heading{
+        font-size: 38px;
+    }
+
+    .box_clr h3{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .game{
+        padding: 20px;
+    }
+
+    .game h3 br{
+        display: none !important;
+    }
+
+
+    .game h3{
+        font-size: 38px;
+    line-height: 60px;
+    }
+
+    .links li{
+        padding: 0px 4px;   
+    }
+
+    .primary_heading{
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .quotes {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 80vh !important;
+    } 
+
+    .hero_para{
+        font-size: 45px;
+    }
+
+    .hero_heading{
+        font-size: 38px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .hero_para{
+        font-size: 45px;
+        text-align: center;
+        line-height: 55px;
+    }
+
+    .hero_heading{
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .custom_hero{
+        text-align: center;
+    }
+}   
